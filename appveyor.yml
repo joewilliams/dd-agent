@@ -23,6 +23,7 @@ cache:
   - C:\projects\dd-agent\embedded
 services:
   - iis
+  - mssql2012sp1
 install:
   - set PATH=C:\Ruby22-x64\bin;%PATH%
   - gem install bundler --quiet --no-ri --no-rdoc
